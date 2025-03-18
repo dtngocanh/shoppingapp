@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shoppingapp/pages/bottomnav.dart';
 import 'package:shoppingapp/pages/home.dart';
 import 'package:shoppingapp/pages/onboarding.dart';
 
@@ -34,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: BottomNav(),
+      home: Home()
     );
   }
 }
